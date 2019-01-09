@@ -1,6 +1,0 @@
-"" Color stuff
-color desert
-
-"" Hide the toolbar
-set guioptions-=T
-set textwidth=172
