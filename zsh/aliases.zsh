@@ -2,7 +2,6 @@
 alias reload!='. ~/.zshrc'
 
 # GIT
-alias go="open \`git remote -v | grep git@github.com | grep fetch | head -1 | cut -f2 | cut -d' ' -f1 | sed -e's/:/\//' -e 's/git@/http:\/\//'\`"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
 alias glc="git log --graph --color --date=relative --stat"
 alias glog="git log --decorate --graph"
